@@ -1,0 +1,448 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01579B;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #E0F7FA;
+}
+
+/* Header */
+header {
+    background-color: #0288D1; 
+    color: #FFFFFF; 
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-name {
+    opacity: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.header-name i{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li i {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.languages{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+/* Body Content */
+.body {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Profile */
+.inicio {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#profile-img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.profile h1 {
+    color: #01579B; 
+}
+
+.profile-desc p {
+    font-size: 1.1em;
+    color: #555; 
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 2em;
+    display: inline;
+    margin-right: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #01579B;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.links ul li a:hover {
+    color: #81D4FA;
+    transition: .3s;
+}
+
+.links ul li i {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Sobre Mí */
+.sobre-mi {
+    background-color: #FFFFFF; 
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-mi h2 {
+    color: #01579B;
+}
+
+.sobre-mi h2 i {
+    font-size: larger;
+    margin-right: 7px;
+}
+
+.sobre-mi-desc p {
+    color: #555; 
+}
+
+.knowledge h3 i{
+    font-size: larger;
+    margin-right: 7px;
+}
+
+.knowledge ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.knowledge ul li {
+    margin-right: 10px;
+    background-color: #0288D1; 
+    color: #FFFFFF; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.knowledge ul li a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.knowledge ul li i {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.studies h3 i{
+    font-size: larger;
+    margin-right: 7px;
+}
+
+.studies ul{
+    list-style: none;
+}
+
+.studies ul li i{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.studies ul li a{
+    color: #555;
+}
+
+.studies-list-list li{
+    color: #555;
+}
+
+.studies-list-list li i{
+    color: #01579B;
+}
+
+/* Mis Proyectos */
+.mis-proyectos {
+    background-color: #FFFFFF; 
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mis-proyectos h2 {
+    color: #01579B; 
+}
+
+.mis-proyectos h2 i {
+    font-size: larger;
+    margin-right: 7px;
+}
+
+.mis-proyectos-desc p {
+    color: #555; 
+}
+
+.proyects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proyect-1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+}
+
+.proyect-1 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.proyect-1 h3 {
+    color: #01579B; 
+}
+
+.proyect-1 p {
+    color: #555; 
+}
+
+.project-link i{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.project-link a{
+    text-decoration: none;
+    color: #01579B;
+    font-weight: bold;
+    transition: .3s;
+}
+.project-link a:hover {
+    color: #81D4FA;
+    transition: .3s;
+}
+
+/* Experiencia */
+.experiencia {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia h2 {
+    color: #01579B; 
+}
+
+.experiencia h2 i{
+    font-size: larger;
+    margin-right: 7px;
+}
+
+.experiencia p {
+    color: #555; 
+}
+
+.jobs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+}
+
+.job-1 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.job-1 h3 {
+    color: #01579B; 
+}
+
+.job-1 p {
+    color: #555; 
+}
+
+.job-2 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+}
+
+.job-2 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.job-2 h3 {
+    color: #01579B; 
+}
+
+.job-2 p {
+    color: #555; 
+}
+
+/* Footer */
+footer {
+    display: block;
+    background-color: #0288D1; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: small;
+}
+
+#sobre-mi, #mis-proyectos, #experiencia{
+    height: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media (max-width: 1024px){
+    .header-name{
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+
+    header li{
+        margin: 0 5px !important; 
+    }
+
+    header ul li a{
+        font-size: smaller;
+    }
+
+    header ul li i{
+        font-size: smaller;
+        margin-right: 3px;
+    }
+
+    .inicio{
+        padding-top: 100px; 
+        display: block;
+    }
+
+    .links ul li{
+        padding: 8px;
+        border-radius: 2em;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .links ul li a{
+        font-size: smaller;
+    }
+
+    .links ul li i{
+       display: none;
+    }
+
+    .job-1 h6 p i{
+        display: none;
+    }
+
+    .job-2 h6 p i{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 375px){
+    header ul li i{
+        display: none !important;
+    }
+
+    #cv{
+        display: none;
+    }
+}
